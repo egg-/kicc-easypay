@@ -1,0 +1,30 @@
+{
+  "name": "kicc-easypay",
+  "version": "0.1.0",
+  "author": {
+    "name": "egg",
+    "email": "i@egg.pe.kr"
+  },
+  "description": "kicc-easypay is kicc easypay library for Node.js",
+  "scripts": {
+    "test": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/egg-/kicc-easypay.git"
+  },
+  "keywords": [
+    "kicc",
+    "easypay",
+    "payment"
+  ],
+  "license": "MIT",
+  "main": "./index",
+  "devDependencies": {
+    "grunt": "^1.0.1"
+  },
+  "dependencies": {
+    "escapeshellarg": "^0.1.0",
+    "iconv": "^2.2.1"
+  }
+}
