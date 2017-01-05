@@ -1,5 +1,7 @@
 # kicc-easypay
 
+[![version](https://img.shields.io/npm/v/kicc-easypay.svg) ![download](https://img.shields.io/npm/dm/kicc-easypay.svg)](https://www.npmjs.com/package/kicc-easypay)
+
 * Node.js 을 위한 KICC Easypay 결제 라이브러리.
 * PHP 샘플 코드를 기반으로 작성되어 있으며, 실제 전문 작성을 위한 binary 파일은 미포함.
 
@@ -153,3 +155,8 @@ user_type | 사용자구분구분[1:일반,2:회원]
 ## Release History
 
 See the [CHANGELOG.md](CHANGELOG.md)
+
+
+## License
+
+kicc-easypay is licensed under the [MIT license](https://github.com/egg-/kicc-easypay/blob/master/LICENSE).
