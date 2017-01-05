@@ -23,7 +23,7 @@ var easypay = Easypay.create({
 
 // ...
 // create payment object
-createPayment({
+easypay.createPayment({
   mode: Easypay.CONST.MODE_PC,
   order_no: orderNo,
   currency: Easypay.CONST.CURRENCY_KRW, // KRW
