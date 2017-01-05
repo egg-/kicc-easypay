@@ -42,7 +42,7 @@ var type = Easypay.checkType(rsp.tr_cd)
 // 승인요청 전문 실행.
 if (type === Easypay.CONST.TYPE_PAYMENT) {
   easypay.execute({
-    clientIp: remoteIp,
+    req_ip: remoteIp,
     tr_cd: rsp.tr_cd,
     order_no: orderNo,
     encrypt_data: rsp.encrypt_data,

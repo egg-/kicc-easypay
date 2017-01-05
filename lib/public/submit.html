@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>KICC EASYPAY</title>
+  <meta name="robots" content="noindex, nofollow">
+  <meta http-equiv="X-UA-Compatible" content="requiresActiveX=true">
+  <meta http-equiv="cache-control" content="no-cache"/>
+  <meta http-equiv="Expires" content="0"/>
+  <meta http-equiv="Pragma" content="no-cache"/>
+  <script type="text/javascript">
+  window.onload = function () {
+    // document.frm_payment.submit()
+  }
+  </script>
+</head>
+<body>
+<form name="frm_payment" action="{{action}}" method="{{method}}">{{#each param}}<input type="hidden" name="{{@key}}" value="{{this}}">{{/each}}</form>
+</body>
+</html>
