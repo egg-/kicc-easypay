@@ -23,7 +23,7 @@ var easypay = Easypay.create({
 
 // ...
 // create payment object
-easypay.createPayment({
+var payment = easypay.createPayment({
   mode: Easypay.CONST.MODE_PC,
   order_no: orderNo,
   currency: Easypay.CONST.CURRENCY_KRW, // KRW
@@ -38,6 +38,13 @@ easypay.createPayment({
 })
 
 // ...
+// create payment form data
+Easypay.createSubmit(payment, function (err, html) {
+  // ...
+})
+
+// ...
+// process data sent at the specified `return_url`
 var rsp = Easypay.parse(req.body)
 var type = Easypay.checkType(rsp.tr_cd)
 
